@@ -3,7 +3,7 @@
 <p align="center">
   <img src="https://trace-features-bdd.github.io/trace_feature_docs/img/mini-logo.png" width="200px" height="200px"/></p>
 
-Documentação gerada para a Biblioteca em Python Trace Features BDD, implementada durante a disciplina de Desenho de Software, ministrada no curso de Engenharia de Software da Universidade de Brasília. Acesse os documentos [aqui!](https://trace-features-bdd.github.io/trace_feature_docs/)
+Documentação gerada para a Biblioteca em Python Trace Features BDD, implementada durante a disciplina de Desenho de Software, ministrada no curso de Engenharia de Software da Universidade de Brasília. Acesse os documentos [aqui!](https://BDD-OperationalProfile.github.io/trace_feature_docs/)
 
 ## Instalação
 Para contribuir com a documentação, após clonar o repositório é necessário instalar os seguintes pacotes Python:
@@ -18,4 +18,3 @@ Ambos os pacotes estão disponíveis através do gerenciador de pacotes do Pytho
 Os documentos estão organizados em arquivos Markdown, de forma similar a uma wiki. Para visualizar o site localmente, basta utilizar o comando `mkdocs serve`. Ele inicializará um servidor local, que atualiza automaticamente com mudanças feitas nos arquivos.
 
 Para publicar as modificações realizadas no Github Pages, após adicioná-las ao controle de versão, utilizar o comando `mkdocs gh-deploy`. Ele realizará automaticamente o _push_ das modificações para a branch gh-pages, e em alguns segundos as mudanças estarão disponíveis no site.
-
