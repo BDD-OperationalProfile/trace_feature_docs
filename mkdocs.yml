@@ -1,0 +1,14 @@
+site_name: Trace Features BDD
+pages:
+  - Home: index.md
+  - About: about.md
+  - How to install: howtoinstall.md
+  - Requirements engineering: elicitacao.md
+  - Project monitoring:
+    - Sprint 1: sprints/sprint1.md
+  - Arquitetura:
+    - Descrição de Pastas: arquitetura/descricao_de_pastas.md
+    - Diagrama de Classes: arquitetura/diagrama_classes.md
+    - Diagrama de Pacotes: arquitetura/diagrama_de_pacotes.md
+    - Padrões: arquitetura/padroes.md
+theme: readthedocs
