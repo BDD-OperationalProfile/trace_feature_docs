@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  <link rel="shortcut icon" href="../img/favicon.ico">
+  <title>How to install - Trace Features BDD</title>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "How to install";
+    var mkdocs_page_input_path = "howtoinstall.md";
+    var mkdocs_page_url = null;
+  </script>
+  
+  <script src="../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href=".." class="icon icon-home"> Trace Features BDD</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+	<ul class="current">
+	  
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="..">Home</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../about/">About</a>
+	    </li>
+          
+            <li class="toctree-l1 current">
+		
+    <a class="current" href="./">How to install</a>
+    <ul class="subnav">
+            
+    <li class="toctree-l2"><a href="#instalacao">Instalação</a></li>
+    
+        <ul>
+        
+            <li><a class="toctree-l3" href="#virtualenv">Virtualenv</a></li>
+        
+            <li><a class="toctree-l3" href="#execucao-do-projeto">Execução do projeto:</a></li>
+        
+        </ul>
+    
+
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../elicitacao/">Requirements engineering</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Project monitoring</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../sprints/sprint1/">Sprint 1</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Arquitetura</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../arquitetura/descricao_de_pastas/">Descrição de Pastas</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../arquitetura/diagrama_classes/">Diagrama de Classes</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../arquitetura/diagrama_de_pacotes/">Diagrama de Pacotes</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../arquitetura/padroes/">Padrões</a>
+                </li>
+    </ul>
+	    </li>
+          
+        </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="..">Trace Features BDD</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="..">Docs</a> &raquo;</li>
+    
+      
+    
+    <li>How to install</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h2 id="instalacao">Instalação</h2>
+<h3 id="virtualenv">Virtualenv</h3>
+<h5 id="1-instale-o-pip"><strong>1. Instale o Pip</strong></h5>
+<p>Para visualizar se você possui o pip instalado, use:</p>
+<pre><code class="shell">pip --version
+</code></pre>
+
+<p>Caso não tenha o pip instalado, use:</p>
+<pre><code class="shell">sudo apt-get install python3-pip
+</code></pre>
+
+<h5 id="2-instale-o-virtualenv"><strong>2. Instale o Virtualenv</strong></h5>
+<p>Para visualizar se você possui o virtualenv instalado, use:</p>
+<pre><code class="shell">virtualenv --version
+</code></pre>
+
+<p>Caso não tenha o pip instalado, use:   </p>
+<pre><code class="shell">sudo pip3 install virtualenv
+</code></pre>
+
+<h5 id="3-crie-um-virtualenv-com-python3"><strong>3. Crie um Virtualenv com Python3</strong></h5>
+<pre><code class="shell">virtualenv -p python3 env
+</code></pre>
+
+<h5 id="4-entre-no-virtualenv"><strong>4. Entre no Virtualenv</strong></h5>
+<p>Entre na pasta que contém seu virtualenv e use:  </p>
+<pre><code class="shell">source env/bin/activate
+</code></pre>
+
+<hr />
+<p>Após criar um <em>virtualenv</em>, navegue até o diretório <code>trace_feature</code> e execute o seguinte comando:   </p>
+<pre><code class="shell">$ pip install .
+</code></pre>
+
+<h3 id="execucao-do-projeto">Execução do projeto:</h3>
+<p>Para executar o projeto, use o comando:</p>
+<pre><code class="shell">trace-feature -f [feature] -s [linha do cenário]
+</code></pre>
+
+<p>Os argumentos são opcionais e não precisam ser especificados depois do comando. Vale lembrar também que para que o comando seja executado sem parâmetros, é necessário navegar até a pasta do projeto onde se deseja executar a ferramenta.</p>
+<p>Para obter ajuda sobre o comando e os argumentos, basta usar</p>
+<pre><code class="shell">trace-feature --help
+</code></pre>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../elicitacao/" class="btn btn-neutral float-right" title="Requirements engineering">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../about/" class="btn btn-neutral" title="About"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+        <span><a href="../about/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+        <span style="margin-left: 15px"><a href="../elicitacao/" style="color: #fcfcfc">Next &raquo;</a></span>
+      
+    </span>
+</div>
+    <script>var base_url = '..';</script>
+    <script src="../js/theme.js" defer></script>
+      <script src="../search/main.js" defer></script>
+
+</body>
+</html>

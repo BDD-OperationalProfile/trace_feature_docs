@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  <link rel="shortcut icon" href="../../img/favicon.ico">
+  <title>Sprint 1 - Trace Features BDD</title>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="../../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Sprint 1";
+    var mkdocs_page_input_path = "sprints/sprint1.md";
+    var mkdocs_page_url = null;
+  </script>
+  
+  <script src="../../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href="../.." class="icon icon-home"> Trace Features BDD</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+	<ul class="current">
+	  
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../..">Home</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../../about/">About</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../../howtoinstall/">How to install</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../../elicitacao/">Requirements engineering</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Project monitoring</span>
+    <ul class="subnav">
+                <li class=" current">
+                    
+    <a class="current" href="./">Sprint 1</a>
+    <ul class="subnav">
+            
+    <li class="toctree-l3"><a href="#sprint-1">Sprint 1</a></li>
+    
+        <ul>
+        
+            <li><a class="toctree-l4" href="#1-pareamento">1. Pareamento</a></li>
+        
+            <li><a class="toctree-l4" href="#1-planejamento-das-historias">1. Planejamento das Histórias</a></li>
+        
+            <li><a class="toctree-l4" href="#2-issues">2. Issues</a></li>
+        
+            <li><a class="toctree-l4" href="#3-historias-tecnicas">3. Histórias Técnicas</a></li>
+        
+            <li><a class="toctree-l4" href="#4-fechamento-da-sprint">4. Fechamento da Sprint</a></li>
+        
+            <li><a class="toctree-l4" href="#5-analise-da-sprint">5. Análise da Sprint</a></li>
+        
+        </ul>
+    
+
+    </ul>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Arquitetura</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../../arquitetura/descricao_de_pastas/">Descrição de Pastas</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../arquitetura/diagrama_classes/">Diagrama de Classes</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../arquitetura/diagrama_de_pacotes/">Diagrama de Pacotes</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../arquitetura/padroes/">Padrões</a>
+                </li>
+    </ul>
+	    </li>
+          
+        </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../..">Trace Features BDD</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../..">Docs</a> &raquo;</li>
+    
+      
+        
+          <li>Project monitoring &raquo;</li>
+        
+      
+    
+    <li>Sprint 1</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <style> p { text-align: justify; text-indent: 30px; } </style>
+
+<h1 id="sprint-1"><strong> <i>Sprint</i> 1 </strong></h1>
+<p>Número da <i>Sprint</i>: 1</p>
+<p>Data de Início: 09/06/2017</p>
+<p>Data de Término: 16/06/2017</p>
+<p>Duração: Sete Dias (Uma Semana)</p>
+<h2 id="1-pareamento"><strong> 1. Pareamento</strong></h2>
+<p><img alt="Pareamento Sprint 0" src="../../img/sprints/pareamentoSprint1.png" /></p>
+<h2 id="1-planejamento-das-historias"><strong> 1. Planejamento das Histórias </strong></h2>
+<p>Para esta <i>sprint</i> foram constatadas dependencias entre as Issues, mas da mesma foram todas puderam ser completadas sem maiores problemas. Como foi realizada apenas uma sprint, todas as Issues foram concluídas nesta.</p>
+<p>Foi realizada também uma Issue técnica, a qual modifica o projeto para que seja compatível com python 3.</p>
+<h2 id="2-issues"><strong> 2. Issues </strong></h2>
+<h3 id="i01-retornar-json-com-metodos-executados"><strong> I01 - Retornar JSON com métodos executados  </strong></h3>
+<p><strong> Descrição: </strong> Ao executar o script, o mesmo deve criar um arquivo json contendo todos os métodos executados durante a execução dos cenários das features, da seguinte forma:</p>
+<pre><code>{ &quot;features&quot;: [
+    {
+        &quot;nome_arquivo&quot;: &quot;path + nome do arquivo&quot;,
+        &quot;funcionalidade&quot;: &quot;Nome da Funcionalidade&quot;,
+        &quot;cenario&quot;: &quot;Nome do Cenario&quot;,
+        &quot;metodos_executados&quot;: [
+             { &quot;nome&quot;: &quot;classe+nomeMetodo&quot;, &quot;numero_execucoes&quot;: &quot;3&quot;},
+             { &quot;nome&quot;: &quot;classe+nomeMetodo&quot;, &quot;numero_execucoes&quot;: &quot;2&quot;},
+             { &quot;nome&quot;: &quot;classe+nomeMetodo&quot;, &quot;numero_execucoes&quot;: &quot;1&quot;}
+        ]
+   },
+   {
+        &quot;nome_arquivo&quot;: &quot;path + nome do arquivo2&quot;,
+        &quot;funcionalidade&quot;: &quot;Nome da Funcionalidade2&quot;,
+        &quot;cenario&quot;: &quot;Nome do Cenario&quot;,
+        &quot;metodos_executados&quot;: [
+             { &quot;nome&quot;: &quot;classe+nomeMetodo&quot;, &quot;numero_execucoes&quot;: &quot;1&quot;},
+             { &quot;nome&quot;: &quot;classe+nomeMetodo&quot;, &quot;numero_execucoes&quot;: &quot;2&quot;},
+             { &quot;nome&quot;: &quot;classe+nomeMetodo&quot;, &quot;numero_execucoes&quot;: &quot;3&quot;}
+        ]
+   }
+ ]
+}
+</code></pre>
+
+<p><strong> Responsáveis: </strong> Bernardo Henrique.
+<br><br></p>
+<h3 id="i04-executar-cenarios-separadamente-em-cada-feature"><strong> I04 - Executar cenários separadamente em cada .feature </strong></h3>
+<p><strong> Descrição: </strong> Dado um arquivo .feature escolhido pelo usuário, o script deve identificar os cenários presentes dentro do arquivo .feature (basta buscar a palavra-chave "Cenário:", ou "Delineação do Cenário") e executar cada cenário individualmente, registrando os métodos executados por cada cenário. Como resultado pode-se utilizar o Json especificado na #3 .</p>
+<p>Para executar apenas um cenário que começa na linha 7, por exemplo, pode-se utilizar o seguinte comando:</p>
+<pre><code>cucumber features/nome_arquivo.feature:7
+</code></pre>
+
+<p>Assim, apenas o cenário que se inicia na linha 7 será executado, registre todos os métodos executados durante este cenário e pronto.</p>
+<p><strong> Responsáveis: </strong> Mariana Pícolo e Letícias Dias.
+<br><br></p>
+<h3 id="i06-verificar-os-requisitos-necessarios-para-um-projeto-ruby"><strong> I06 - Verificar os requisitos necessários para um projeto Ruby </strong></h3>
+<p><strong> Descrição: </strong> </p>
+<ul>
+<li>Verificar se é um projeto Rails</li>
+<li>Verificar se possui a gem SimpleCov</li>
+<li>Verificar se a gem está instanciada corretamente</li>
+</ul>
+<p><strong> Responsáveis: </strong> Halê Valente.
+<br><br></p>
+<h3 id="i07-incluir-requisitos-faltantes"><strong> I07 - Incluir requisitos faltantes </strong></h3>
+<p><strong> Descrição: </strong> </p>
+<ul>
+<li>Incluir a gem no Gemfile</li>
+<li>Executar o bundle install</li>
+<li>Instanciar a gem no arquivo env.rb</li>
+</ul>
+<p><strong> Responsáveis: </strong> Daniel Teles.
+<br><br></p>
+<h3 id="i09-identificar-definicao-de-metodos-e-classes-em-um-arquivo"><strong> I09 - Identificar definição de métodos e classes em um arquivo </strong></h3>
+<p><strong> Descrição: </strong> </p>
+<p>Recebe um número e o nome do arquivo. Dentro desse arquivo, na linha de número indicado, verificar se é definição de método ou classe. Se sim, retornar seu nome. Se não, retornar None.</p>
+<p>Retornar apenas se alguma linha dentro do método ou classe estiver sendo executada.</p>
+<p><strong> Responsáveis: </strong> Felipe Hargreaves.
+<br><br></p>
+<h3 id="i10-criar-interface-com-o-usuario"><strong> I10 - Criar interface com o usuário </strong></h3>
+<p><strong> Descrição: </strong> Definir os comandos a serem utilizados pelo usuário para utilizar a biblioteca. Por exemplo:</p>
+<pre><code>trace_feature --file 
+trace_feature --file --scenario &lt;nome/linha do cenário&gt;
+</code></pre>
+
+<p><strong> Responsáveis: </strong> Clarissa Lima e Bruna Pinos.
+<br><br></p>
+<h2 id="3-historias-tecnicas"><strong> 3. Histórias Técnicas </strong></h2>
+<h3 id="i08-modificar-para-python-3"><strong> I08 - Modificar para python 3 </strong></h3>
+<p><strong> Descrição: </strong> Modificação do projeto para que seja compatível com python 3.</p>
+<p><strong> Responsáveis: </strong> Time de Desenvolvimento.
+<br><br></p>
+<h2 id="4-fechamento-da-sprint"><strong> 4. Fechamento da <i>Sprint</i> </strong></h2>
+<table>
+<thead>
+<tr>
+<th>Histórias Planejadas</th>
+<th>Status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><b>I04:</b> Executar cenários separadamente em cada .feature</td>
+<td><strong> Completo </strong></td>
+</tr>
+<tr>
+<td><b>I06:</b> Verificar os requisitos necessários para um projeto Ruby</td>
+<td><strong> Completo </strong></td>
+</tr>
+<tr>
+<td><b>I07:</b> Incluir requisitos faltantes</td>
+<td><strong> Completo </strong></td>
+</tr>
+<tr>
+<td><b>I09:</b> Identificar definição de métodos e classes em um arquivo</td>
+<td><strong> Completo </strong></td>
+</tr>
+<tr>
+<td><b>I10:</b> Criar interface com o usuário</td>
+<td><strong> Completo </strong></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Histórias Técnicas</th>
+<th>Status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><b>I08:</b> Modificar para python 3</td>
+<td><strong> Completo </strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="5-analise-da-sprint"><strong> 5. Análise da Sprint </strong></h2>
+<p>A Sprint foi foi totalmente realizada, tanto as issues técnicas quanto as planejadas foram executadas.</p>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../../arquitetura/descricao_de_pastas/" class="btn btn-neutral float-right" title="Descrição de Pastas">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../../elicitacao/" class="btn btn-neutral" title="Requirements engineering"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+        <span><a href="../../elicitacao/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+        <span style="margin-left: 15px"><a href="../../arquitetura/descricao_de_pastas/" style="color: #fcfcfc">Next &raquo;</a></span>
+      
+    </span>
+</div>
+    <script>var base_url = '../..';</script>
+    <script src="../../js/theme.js" defer></script>
+      <script src="../../search/main.js" defer></script>
+
+</body>
+</html>
